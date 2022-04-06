@@ -23,7 +23,7 @@ class MainWindow(QMainWindow):
                     x, y = line.split(',')
                     points.append([float(x), float(y)])
         except Exception as e:
-            error(e.message)
+            error('Ошибка в входном файле. Проверьте, что в все точки заданы числами и координаты разделены запятой.')
             return
         if len(points) > 1:
             self.points = points
