@@ -33,5 +33,9 @@ Example of file:
 
 ```
 ## Curve rendering animation
-...
 
+![alt text](examples/rendering_visualization.gif)
+
+## Curve points manipulation
+
+![alt text](examples/curve_manipulation.gif)
